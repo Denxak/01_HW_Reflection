@@ -1,0 +1,7 @@
+// Additional Requirements for Developers Adding Their Own Actions:
+// - Each new action should be implemented as a separate class.
+// - The class name should follow the format: ActionNameAction (e.g., ReverseAction, ShuffleAction).
+// - The class must extend the abstract class Action.
+// - In your new action class, you must override the performAction(String inputFile, String outputFile) method.
+// - The performAction method must be the entry point for the action execution.
+// - You can use the provided utility methods readLines(String inputFile) and writeLines(List<String> lines, String outputFile) from the Action abstract class.
